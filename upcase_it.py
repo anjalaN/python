@@ -6,13 +6,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: arajapak <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/11/29 16:08:34 by arajapak          #+#    #+#              #
-#    Updated: 2024/11/29 16:08:34 by arajapak         ###   ########.fr        #
+#    Created: 2024/12/04 14:47:41 by arajapak          #+#    #+#              #
+#    Updated: 2024/12/04 14:47:49 by arajapak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-#text = input("Give me a word: ")
-#x = text.upper()
-#print(x)
 
-print(input("Give me a word: ").upper())
+import sys
 
+if len(sys.argv) > 1:
+    resusalt_uppercase =(sys.argv[1]).upper()
+    print(resusalt_uppercase)
+else:
+    print("none")
+    
