@@ -6,16 +6,21 @@
 #                                                     +:+ +:+         +:+      #
 #    By: arajapak <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/12/04 14:47:41 by arajapak          #+#    #+#              #
-#    Updated: 2024/12/04 14:47:49 by arajapak         ###   ########.fr        #
+#    Created: 2024/12/06 16:48:58 by arajapak          #+#    #+#              #
+#    Updated: 2024/12/06 16:49:03 by arajapak         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+#!/bin/python3
 
-import sys
+#creer funtion with def for chain the charactor
 
-if len(sys.argv) > 1:
-    resusalt_uppercase =(sys.argv[1]).upper()
-    print(resusalt_uppercase)
-else:
-    print("none")
+def upcase_it(chain):
+    return chain.upper()
+
+print(upcase_it("hello"))
+
     
+
+  
+
+
