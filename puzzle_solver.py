@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    puzzle_solver.py                                   :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: arajapak <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/12/16 15:28:16 by arajapak          #+#    #+#              #
+#    Updated: 2024/12/16 15:28:20 by arajapak         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/usr/bin/env python3
+
 from collections import deque
 
 # Goal state for the 8-puzzle
